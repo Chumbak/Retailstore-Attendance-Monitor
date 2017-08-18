@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- The first thing in any HTML file should be the charset -->
+    <meta charset="utf-8">
+    <title> Retail Attendance Monitor - Chumbak </title>
+    <meta name="description" content="To keep track of retail attendance across different chumbak stores in India">
+    <!-- Twitter tags -->
+    <meta name="twitter:title" content="Retail Attendance Monitor - Chumbak" />
+    <meta name="twitter:description" content="To keep track of retail attendance across different chumbak stores in India" />
+    <meta name="twitter:image" content="https://retailattendance.firebaseapp.com/ram-logo.png" />
+    <!-- Facebook tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Retail Attendance Monitor - Chumbak" />
+    <meta property="og:description" content="To keep track of retail attendance across different chumbak stores in India" />
+    <meta property="og:image" content="https://retailattendance.firebaseapp.com/ram-logo.png" />
+    <meta property="og:url" content="https://retailattendance.firebaseapp.com/" />
+    <!-- Make the page mobile compatible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#e15237">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#e15237" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#e15237" />
+    <!-- Favicon -->
+    <link rel="icon" href="/ram-logo.png" sizes="16x16" type="image/png">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800" rel="stylesheet">
+    <!-- data table CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/datatables.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/main.css">
+    <!-- data table JS -->
+    <script src="/assets/datatables.min.js"></script>
+    <script src="/assets/export/dataTables.buttons.min.js"></script>
+    <script src="/assets/export/buttons.flash.min.js"></script>
+    <script src="/assets/export/jszip.min.js"></script>
+    <script src="/assets/export/pdfmake.min.js"></script>
+    <script src="/assets/export/vfs_fonts.js"></script>
+    <script src="/assets/export/buttons.html5.min.js"></script>
+    <script src="/assets/export/buttons.print.min.js"></script>
+    <!-- Firebase JS -->
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-database.js"></script>
+    <!-- Custom JS -->
+    <script src="/views/login/login.js"></script>
+    <script src="/views/dashboard/dashboard.js"></script>
+    <script src="/main.js"></script>
+  </head>
+  <body>
+    <!-- Display a message if JS has been disabled on the browser. -->
+    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
+    <!-- The app hooks into this div -->
+    <div class="header" style="display: none">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <span class="navbar-brand" href="/">
+              <img class="pull-left img-responsive" src="/ram-logo.png" alt="loader">
+              <p>Retail Attendance Monitor</p>
+            </span>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="javascript:void(0)" onClick="logout();"><strong>LOGOUT</strong></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="app">
+      <div class="owl-loader">
+        <div class="owl-loader-gif">
+          <img src="/owl-loader.gif" alt="loader">
+        </div>
+      </div>
+      <div id="login-view"></div>
+      <div id="dashboard-view"></div>
+    </div>
+  </body>
+</html>

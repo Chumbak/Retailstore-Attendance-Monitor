@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "683045748326",
+    "firebase_url": "https://retail-attendance-monitor.firebaseio.com",
+    "project_id": "retail-attendance-monitor",
+    "storage_bucket": "retail-attendance-monitor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683045748326:android:135c846b3f518a6d",
+        "android_client_info": {
+          "package_name": "com.retailattendancemonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683045748326-6752m7ok4rareckrotg35f4f10sn1kni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXcEhqvps46AxNvAE1AEM8EXuw__lkizU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
