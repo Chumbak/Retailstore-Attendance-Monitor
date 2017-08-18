@@ -1,0 +1,139 @@
+
+body{
+  background-color: #eee;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.MRT5 {
+  margin-right: 5px;
+}
+.owl-loader {
+  background: rgba(255,255,255,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.owl-loader-gif {
+  width: 80px;
+  height: 80px;
+  margin: 200px auto 60px auto;
+  @media(max-width: 767px) {
+    width: 50px;
+    height: 50px;
+  }
+}
+.owl-loader-gif img {
+  max-width: 100%;
+}
+.loader {
+  text-align: center;
+  margin-top: 20vh;
+}
+.loader img {
+  width: 50px !important;
+  height: 50px !important;;
+}
+.header .navbar{
+	margin-bottom: 0px;
+}
+.header .navbar-header img {
+	height: 100%;
+}
+.header .navbar-brand{
+	padding:  10px;
+}
+.header .navbar-brand p{
+	margin-top: 6px;
+	margin-left: 4px;
+	font-weight: bold;
+	float: left;
+}
+.form-signin .form-control{
+	height: 42px;
+}
+.form-signin{
+  padding-top: 40px;
+  padding-bottom: 40px;
+	min-height: 100vh;
+}
+.form-signin h2{
+	margin-bottom: 30px;
+}
+.form-signin input[type="email"]{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"]{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin .btn-lg{
+	border-radius: 3px;
+	margin-top: 30px;
+}
+.ram-db-wrap{
+	background: #fff;
+	min-height: 100vh;
+}
+.ram-db-wrap .container{
+	padding-top: 10px;
+	padding-bottom: 180px;
+}
+.ram-db-wrap .container h1{
+	margin-bottom: 30px;
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 30px;
+}
+.ram-db-wrap table > tbody > tr > td{
+	padding:  15px;
+  vertical-align: middle;
+}
+#range-filter {
+  margin-bottom: 25px;
+}
+#range-filter .refresh {
+  width: 27%;
+}
+.address {
+  width: 170px;
+}
+#range-filter > tbody > tr > td {
+  padding-left: 0px;
+}
+#error{
+  margin-top: 30px;
+  font-size: 15px;
+  color: red;
+  text-align: center;
+}
+.wrapper {
+  margin: 30px 0 80px 0;
+}
+#ram-db_length {
+  width: 50%;
+  float: left;
+}
+#ram-db_filter {
+  width: 50%;
+  float: right;
+}
+#preview {
+  position: absolute;
+  background: transparent;
+  padding: 5px;
+  display: none;
+}
+#preview img {
+  height: 400px;
+  min-height: 400px;
+  min-width: 300px;
+  background: url("/assets/loader.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 8px #888888;
+  background-size: 40px 40px;
+}
