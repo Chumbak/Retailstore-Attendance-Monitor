@@ -121,3 +121,14 @@ Apart from these, in order to enable firebase push notifications, you must uploa
 -**Cloudinary dependencies**
 
  - Cloudinary is our Image repository. Create your account in Cloudinary and extract the following `CLOUDINARY_UPLOAD_PRESET` `CLOUDINARY_CLOUDNAME` `CLOUDINARY_API_SECRET` `CLOUDINARY_API_KEY` and add it to the `.env` file
+
+-**Hosting using Firebase**
+
+- Change to this repo in the terminal and  execute `firebase init`. This will create the required function files
+
+- To deploy the website use `firebase deploy`
+
+- The url of the website and the dashboard must be aded to the `.env` file. These are obtained from firebase as instructed in the previous steps
+
+
+-All the dependencies to be filled in the `.env` file are listed within the `.env.tmpl`
