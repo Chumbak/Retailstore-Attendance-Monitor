@@ -1,13 +1,12 @@
 /**
- * @Author: Harsha Attray <HarshaAttray>
- * @Date:   2017-06-05T12:45:11+05:30
+ * @Author: Harsha Attray <harsha>
+ * @Date:   2017-08-17T18:15:34+05:30
  * @Project: Retailstore-Attendance-Monitor
  * @Filename: index.ios.js
- * @Last modified by:   HarshaAttray
- * @Last modified time: 2017-08-16T17:28:21+05:30
- * @Copyright: Chumbak design Pvt ltd
+ * @Last modified by:   harsha
+ * @Last modified time: 2017-08-22T15:30:59+05:30
+ * @License: Apache License v2.0
  */
-
 /**
  * React Native App
  * https://github.com/facebook/react-native

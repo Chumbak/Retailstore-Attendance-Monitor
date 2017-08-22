@@ -1,12 +1,13 @@
 /**
-* @Author: Harsha Attray <HarshaAttray>
-* @Date:   2017-05-22T17:34:23+05:30
-* @Project: Retailstore-Attendance-Monitor
-* @Filename: Button.js
+ * @Author: Harsha Attray <harsha>
+ * @Date:   2017-08-17T18:15:36+05:30
+ * @Project: Retailstore-Attendance-Monitor
+ * @Filename: Button.js
  * @Last modified by:   harsha
- * @Last modified time: 2017-08-17T18:55:19+05:30
-* @Copyright: Chumbak design Pvt ltd
-*/
+ * @Last modified time: 2017-08-22T15:28:47+05:30
+ * @License: Apache License v2.0
+ */
+
 
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
@@ -14,7 +15,7 @@ import { Text, TouchableOpacity } from 'react-native';
 const Button = ({ onPress, children }) => {
   return (
     <TouchableOpacity onPress={onPress} style={styles.buttonStyle}>
-      /*Takes in styles and name dynamically wherever imported and passed onto*/
+    { /*Takes in styles and name dynamically wherever imported and passed onto*/ }
       <Text style={styles.textStyle}>
         {children}
       </Text>

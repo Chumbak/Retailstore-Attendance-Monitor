@@ -1,6 +1,4 @@
-#  🌟 Retail Attendance Monitor 🌟
-![Dependency Status](https://david-dm.org/7kfpun/AudienceNetworkReactNative.svg)
-
+## 🌟 Retail Attendance Monitor 🌟
 
  <img src="src/Images/icon.png" align="right" />
 
@@ -8,14 +6,16 @@
 ## Basic Overview
 An attendance monitoring system for all our Chumbak Store employees across the country built on React-native.
 
+## Installation Instructions
+
+  - Go through the [installation.md](installation.md) file for critical project specific setup examples and guides.
+
 ## Features
 - Create User/User Auth using firebase.
 
 - AttendanceCam view to capture Images
 
 - Upload View via Cloudinary
-
-- User Location Tracking
 
 - User gets to see the last submitted attendance date and type.
 
@@ -54,23 +54,7 @@ An attendance monitoring system for all our Chumbak Store employees across the c
 
 ## Screenshots
 
-<img src="src/Images/gitassets/attcam.png" width="250">
-<img src="src/Images/gitassets/login.png" width="250">
-<img src="src/Images/gitassets/upload1.png" width="250">
-
-<img src="src/Images/gitassets/flow.gif" width="250" />
-
-
-## Setup ##    
-
-- Clone this repo `git clone git@github.com:Chumbak/retail-attendance-monitor.git`
-- `cd RetailAttendanceMonitor`
-- Run `npm install`
-- Use `react-native run-android` to run on the android emulator | `react-native run-ios` to run on the iOS simulator.
-
-
-
-The application is built using the following products from [Facebook](https://developers.facebook.com/):
+<img src="src/Images/gitassets/App-screens.png">
 
 
 ## React and React Native version
@@ -101,3 +85,25 @@ The application is built using the following products from [Facebook](https://de
 ## Additional
 
 * [Cloudinary](http://cloudinary.com/) - Cloud based Image Management.
+
+## License ##
+
+```
+
+    This software is licensed under the Apache License, version 2 ("ALv2"), quoted below.
+
+    Copyright 2017 Chumbak Design Pvt Ltd
+
+    Licensed under the Apache License, Version 2.0 (the "License"); you may not
+    use this file except in compliance with the License. You may obtain a copy of
+    the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+    License for the specific language governing permissions and limitations under
+    the License.
+
+```

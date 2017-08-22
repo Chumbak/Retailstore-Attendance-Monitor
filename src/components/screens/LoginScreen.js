@@ -1,13 +1,12 @@
 /**
  * @Author: Harsha Attray <harsha>
- * @Date:   2017-06-15T12:39:33+05:30
+ * @Date:   2017-08-17T18:15:36+05:30
  * @Project: Retailstore-Attendance-Monitor
  * @Filename: LoginScreen.js
  * @Last modified by:   harsha
- * @Last modified time: 2017-08-17T17:13:01+05:30
- * @Copyright: Chumbak design Pvt ltd
+ * @Last modified time: 2017-08-22T15:33:11+05:30
+ * @License: Apache License v2.0
  */
-
 
 import React, { Component } from 'react';
 import { View, Text, KeyboardAvoidingView, Image, ScrollView } from 'react-native';

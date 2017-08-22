@@ -1,11 +1,11 @@
 /**
- * @Author: Harsha Attray <HarshaAttray>
- * @Date:   2017-04-26T10:30:42+05:30
+ * @Author: Harsha Attray <harsha>
+ * @Date:   2017-08-17T18:15:36+05:30
  * @Project: Retailstore-Attendance-Monitor
  * @Filename: Card.js
  * @Last modified by:   harsha
- * @Last modified time: 2017-08-17T11:15:30+05:30
- * @Copyright: Chumbak design Pvt ltd
+ * @Last modified time: 2017-08-22T15:29:28+05:30
+ * @License: Apache License v2.0
  */
 
 import React from 'react';

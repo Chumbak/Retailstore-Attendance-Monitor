@@ -1,13 +1,12 @@
 /**
- * @Author: Harsha Attray <HarshaAttray>
- * @Date:   2017-06-15T12:39:33+05:30
+ * @Author: Harsha Attray <harsha>
+ * @Date:   2017-08-17T18:15:36+05:30
  * @Project: Retailstore-Attendance-Monitor
  * @Filename: Forgotpassword.js
  * @Last modified by:   harsha
- * @Last modified time: 2017-08-17T17:12:41+05:30
- * @Copyright: Chumbak design Pvt ltd
+ * @Last modified time: 2017-08-22T15:32:50+05:30
+ * @License: Apache License v2.0
  */
-
 import React, { Component } from 'react';
 import firebase from 'firebase';
 /*State traversal workhorse function for route traversal*/

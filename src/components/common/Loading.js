@@ -1,11 +1,11 @@
 /**
  * @Author: Harsha Attray <harsha>
- * @Date:   2017-04-27T17:51:41+05:30
+ * @Date:   2017-08-17T18:15:36+05:30
  * @Project: Retailstore-Attendance-Monitor
  * @Filename: Loading.js
  * @Last modified by:   harsha
- * @Last modified time: 2017-08-17T11:16:42+05:30
- * @Copyright: Chumbak design Pvt ltd
+ * @Last modified time: 2017-08-22T15:30:44+05:30
+ * @License: Apache License v2.0
  */
 
 import React from 'react';

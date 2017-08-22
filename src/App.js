@@ -1,12 +1,12 @@
 /**
-* @Author: Harsha Attray <HarshaAttray>
-* @Date:   2017-06-22T20:54:40+05:30
-* @Project: Retailstore-Attendance-Monitor
-* @Filename: App.js
+ * @Author: Harsha Attray <harsha>
+ * @Date:   2017-08-17T18:15:36+05:30
+ * @Project: Retailstore-Attendance-Monitor
+ * @Filename: App.js
  * @Last modified by:   harsha
- * @Last modified time: 2017-08-17T18:54:44+05:30
-* @Copyright: Chumbak design Pvt ltd
-*/
+ * @Last modified time: 2017-08-22T15:33:47+05:30
+ * @License: Apache License v2.0
+ */
 
 import React, { Component } from 'react';
 /*Extracting Platform base for differentiating iOS and android */

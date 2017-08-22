@@ -1,11 +1,11 @@
 /**
  * @Author: Harsha Attray <harsha>
- * @Date:   2017-04-26T10:39:40+05:30
+ * @Date:   2017-08-17T18:15:36+05:30
  * @Project: Retailstore-Attendance-Monitor
  * @Filename: index.js
  * @Last modified by:   harsha
- * @Last modified time: 2017-08-17T11:14:20+05:30
- * @Copyright: Chumbak design Pvt ltd
+ * @Last modified time: 2017-08-22T15:31:11+05:30
+ * @License: Apache License v2.0
  */
 
 /*One access point for all reusable UI-components*/

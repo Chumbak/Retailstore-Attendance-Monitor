@@ -1,11 +1,11 @@
 /**
  * @Author: Harsha Attray <harsha>
- * @Date:   2017-06-15T12:34:21+05:30
+ * @Date:   2017-08-17T18:15:36+05:30
  * @Project: Retailstore-Attendance-Monitor
  * @Filename: AttendanceCam.js
  * @Last modified by:   harsha
- * @Last modified time: 2017-08-17T17:40:06+05:30
- * @Copyright: Chumbak design Pvt ltd
+ * @Last modified time: 2017-08-22T15:31:32+05:30
+ * @License: Apache License v2.0
  */
 
 import React, { Component } from 'react';
