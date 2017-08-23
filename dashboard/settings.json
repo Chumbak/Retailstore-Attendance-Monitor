@@ -1,0 +1,13 @@
+{
+    "FIREBASE_API_KEY": "Enter your key here",
+    "FIREBASE_AUTH_DOMAIN": "Enter your Firebase Domain here",
+    "FIREBASE_DATABASE_URL": "Enter Firebase DB url",
+    "FIREBASE_PROJECT_ID": "Enter Firebase Project ID",
+    "FIREBASE_STORAGE_BUCKET": "Enter Firebase Storage Bucket",
+    "FIREBASE_MESSAGING_SENDING_ID": "Enter Firebase Message Sending ID",
+    "CLOUDINARY_UPLOAD_PRESET": "Enter Cloudinary Preset Key",
+    "CLOUDINARY_CLOUDNAME": "Enter Cloudinary CloudName",
+    "CLOUDINARY_API_SECRET": "Enter Cloudinary  API Secret Key",
+    "CLOUDINARY_API_KEY": "Enter Cloudinary API key",
+    "HOCKEY_APP_ID": "Enter Hockey APP ID",
+}
