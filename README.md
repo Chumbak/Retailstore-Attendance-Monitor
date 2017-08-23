@@ -4,7 +4,21 @@
 
 
 ## Basic Overview
-An attendance monitoring system for all our Chumbak Store employees across the country built on React-native.
+An attendance monitoring system for all our Store employees across the country built on React-native.
+
+## Blog
+
+* [Chumbak Engineering Blog](https://engineering.chumbak.com/snappier-attendance-tracking/) - Read more about this on the Chumbak Engineering Blog 
+
+## How does it work
+
+- With the app installed on their Android/iOS device , the store employees Sign-up on the app with their EmployeeID, Fullname and password
+
+- On successful Sign-In/Sign-up,they can  Snap their picture from within the premises of the store and select the  Check-in option, this registers their check-in time along with their image which are visible on the dashbord. At the end of the day, the employees can checkout by Snapping their picture within the 
+store premises and select Check-out.
+
+- All of these details will be visible via admin login  on the dashboard  wherein Employee-ID,email,Check-in/out, Time,Duration and their captured image will be displayed 
+
 
 ## Installation Instructions
 
@@ -85,6 +99,7 @@ An attendance monitoring system for all our Chumbak Store employees across the c
 ## Additional
 
 * [Cloudinary](http://cloudinary.com/) - Cloud based Image Management.
+
 
 ## License ##
 
