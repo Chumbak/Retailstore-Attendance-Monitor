@@ -38,8 +38,6 @@ npm-debug.log
 yarn-error.log
 yarn.lock
 config.js
-.firebaserc
-firebase.json
 app.json
 .watchmanconfig
 CNAME
