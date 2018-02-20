@@ -11,7 +11,7 @@ import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 
 import com.evollu.react.fcm.FIRMessagingPackage;
-import com.lwansbrough.RCTCamera.RCTCameraPackage;
+import org.reactnative.camera.RNCameraPackage;
 
 import com.slowpath.hockeyapp.RNHockeyAppModule;
 import com.slowpath.hockeyapp.RNHockeyAppPackage;
@@ -37,7 +37,7 @@ public class MainApplication extends Application implements ReactApplication {
           new FIRMessagingPackage(),
           new RNHockeyAppPackage(MainApplication.this),
           new RNGeocoderPackage(),
-          new RCTCameraPackage()
+          new RNCameraPackage()
       );
     }
   };
