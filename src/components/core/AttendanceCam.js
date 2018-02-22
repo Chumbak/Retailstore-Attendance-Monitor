@@ -4,7 +4,7 @@
  * @Project: Retailstore-Attendance-Monitor
  * @Filename: AttendanceCam.js
  * @Last modified by:   harsha
- * @Last modified time: 2017-08-22T15:31:32+05:30
+ * @Last modified time: 2018-02-22T12:56:45+05:30
  * @License: Apache License v2.0
  */
 
@@ -17,7 +17,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 /* importing required modules from the react-native-camera Component */
-import Camera, { constants } from 'react-native-camera';
+import { RNCamera } from 'react-native-camera';
 /**/
 import * as firebase from 'firebase';
 /* Component for implementing reverse-Geocoding */
@@ -89,9 +89,9 @@ This is bound to the onPress call on the render metod of the AttendanceCam compo
     /*camera.capture is a react-native-camera module based trigger which takes in metadata from the
      options variable above and returns principally the path(saved file path) of the generated image
        */
-    this.camera.capture({ metadata: options })
+    this.camera.takePictureAsync({ metadata: options })
     .then((data) => {
-      const SavedImage = data.path;
+      const SavedImage = data.uri;
       if (SavedImage) {
         /*Here we get the unique id that firebase generates for each use using firebase.auth()  */
         const { currentUser } = firebase.auth();
@@ -165,18 +165,15 @@ This is bound to the onPress call on the render metod of the AttendanceCam compo
       <View style={styles.main}>
         {/*Camera module imported from  react-native-camera with all the necessary
          accessibility options */}
-        <Camera
+        <RNCamera
           ref={(cam) => {
             this.camera = cam;
           }}
           style={styles.camera}
-          aspect={constants.Aspect.fill}
           type={this.state.cameraType}
           mirrorImage={this.state.mirrorMode}
           playSoundOnCapture={false}
-          captureTarget={constants.CaptureTarget.disk}
-        >
-        </Camera>
+        />
         {/*captureSwitch() used to switch between views based on user interaction*/}
         {this.captureSwitch()}
       </View>
