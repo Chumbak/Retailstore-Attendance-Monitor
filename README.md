@@ -8,7 +8,7 @@ An attendance monitoring system for all our Store employees across the country b
 
 ## Blog
 
-* [Chumbak Engineering Blog](https://engineering.chumbak.com/snappier-attendance-tracking/) - Read more about this on the Chumbak Engineering Blog 
+* [Blogpost](https://medium.com/@Harshattray/a-snappier-approach-to-attendance-tracking-597ef07b562f) - Read more about this here
 
 ## How does it work
 
